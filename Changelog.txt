@@ -1,0 +1,33 @@
+Plantilla Autos
+
+0.1
+9/7/2023
+
+Nuevo
+-acomodado y con imagenes
+
+0.2
+10/7/2023
+Nuevo
+-Animaciones y un poco de estilizado
+-pagina de autos
+
+0.3
+11/7/23
+
+nuevo
+-se agrego una pagina test para cada auto solo se tiene que remplazar por el auto que se quiera agregar
+cosas a mejorar:
+-pulir animaciones y detalles
+-agregar colores (todavia se esta considerando)
+
+0.4
+
+nuevo
+-diseño responsive en index html
+
+0.5
+
+nuevo
+-se arreglo el diseño responsive
+-se agrego un contactar por correo

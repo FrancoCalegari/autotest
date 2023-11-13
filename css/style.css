@@ -1,0 +1,941 @@
+  /* Estilos CSS para la página */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+    height: 40px;
+    width: auto;
+  }
+
+header h1{
+    background-color: #000;
+    color: #fff;
+    height: 20px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+  }
+
+
+
+/* Menu de navegacion */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+/* seccion de hero */
+.fondo-img{
+    z-index: -1;
+    display: flex;
+    height: 50%;
+    max-height: 300px;
+    width: 80%;
+    max-width: 480px;
+    position: absolute;
+
+}
+
+.hero-image {
+
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.597);
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    
+}
+
+.hero-text {
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Seccion de tarjetas de autos */
+
+
+.car-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#autos .Background-cars{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+      
+}
+ #autos h2 {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.car-card {
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #f5f5f5d6;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.614);
+    transition: all 500ms;
+}
+
+#autos {
+  width: 100%;
+  height: 900px;
+}
+
+
+.car-card h3 {
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+}
+
+.car-card p {
+  font-size: 15px;
+  margin: 5px;
+  background-color: #dbdbdbd6;
+  padding: 8px;
+  border-radius: 15px;
+  font-weight: 200;
+  transition: all 500ms;
+}
+
+.car-card:hover{
+  width: 340px;
+  transition: all 500ms;
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ceo seccion */
+#ceo-section {
+    background-color: #f2f2f2bd;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+  
+#ceo-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.ceo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.909);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 730px;
+}
+  
+.ceo-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+  
+.ceo-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.ceo-card p {
+    text-align: center;
+    color: #555555;
+}
+
+
+
+
+/* contact section */
+
+.contacto {
+  max-width: 440px;
+  
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+
+}
+
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Estilos del formulario */
+.contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto label {
+  margin-bottom: 5px;
+}
+
+.contacto input,
+.contacto textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contacto textarea {
+  resize: vertical; /* Permite ajustar el tamaño verticalmente */
+}
+
+.contacto button {
+  padding: 10px 20px;
+  background-color: #555555;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background-color: #707070;
+}
+
+/* footer seccion*/
+footer {
+    background-color: #000000ac;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 65px;
+    border: 5px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.RSS img {
+    height: 20px;
+    width: 20px;
+    transition: 400ms;
+}
+
+.RSS img:hover {
+    height: 25px;
+    width: 25px;
+    transition: 400ms;
+}
+
+/* Estilo individual de otras paginas */
+
+/* Estilos CSS para la página cars.html */
+
+#fondo-img-cars¨{
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+} 
+
+#cars-galery{
+  display: grid;
+  position: relative;
+  background-image: url("/imagenes/pngwing.com\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.brand-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.model {
+  margin-left: 20px;
+  display: flex;
+}
+
+.car-card-galery {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f5f5d6;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.614);
+  transition: all 500ms;
+}
+
+.car-card-galery img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Estilos CSS para la página test.html y cualquier auto */
+
+.car-section-1 {
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    transition: 500ms all;
+  }
+
+  .car-image-1 {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    transition: all 500ms;
+  }
+
+  .car-section-1:hover {
+    width: 800px;
+    height: 70%;
+    
+    transition: all 500ms;
+    .car-image-1 {
+        max-height: 400px;
+        transition: 500ms all;
+    }
+  }
+
+  .car-model-1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .car-description-1 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+
+  .technical-details {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+
+  .technical-details h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .technical-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .technical-details li {
+    margin-bottom: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilizado responsive desing */    
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (width:980px ) {
+
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+    
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+    
+  }
+
+  header {
+      background-color: #000;
+      color: #ffffff;
+      padding: 0px;
+      text-align: center;
+      height: 120px;
+      width: 980px;
+      display: inline-block;
+      
+    }
+
+  header h1{
+      background-color: #000;
+      color: #fff;
+      height: 40px;
+      text-align: center;
+      margin: 5px;
+      font-size: 80px;
+      margin-top: 18px;
+    }
+
+
+
+  /* Menu de navegacion */
+  nav {
+      background-color: #333;
+      color: #fff;
+      padding: 0;
+      text-align: center;
+      border-radius: 0px 0px 15px 15px;
+      width: 980px;
+      height: 80px;
+
+
+      
+  }
+
+  nav ul {
+      list-style-type: none;
+      padding-top: 20px;
+      
+      
+      
+  }
+  nav ul li {
+      display: inline;
+      margin-right: 15px;
+      
+  }
+
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 35px;
+      border: solid #ccc 3px;
+      border-radius: 25px;
+      padding: 10px;
+      
+  }
+
+  section {
+      padding: 20px;
+  }
+  /* seccion de hero */
+  .fondo-img{
+      z-index: -1;
+      display: flex;
+      height: 50%;
+      max-height: 580px;
+      width: 100%;
+      max-width: 1200px;
+      position: absolute;
+
+  }
+
+  .hero-image {
+
+      background-size: cover;
+      background-position: center;
+      background-color: rgba(255, 255, 255, 0.597);
+      height: 800px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: content-box;
+      margin: 25px;
+  }
+
+  .hero-text {
+      color: #000000;
+      text-align: center;
+      font-size: 28px;
+  }
+
+
+  /* Seccion de tarjetas de autos */
+
+
+  .car-list {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    position: relative;
+    width: 980px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  #autos {
+    height: auto;
+    padding: 0%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 980px;
+    padding: auto;
+    margin: auto;
+
+  }
+  #autos .Background-cars{
+      display: flex;
+      position: absolute;
+      z-index: -1;
+      width: 90%;
+      height: auto;
+    
+
+      
+  }
+  #autos h2 {
+      font-size: 80px;
+      font-weight: 900;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-bottom:15px ;
+      background-color: #f5f5f5dd;
+      border-radius: 15px;
+      width: 90%;
+  }
+  .car-card {
+    width: 420px;
+    height: 880px;
+    margin: 20px;
+    background-color: #f5f5f5d6;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.614);
+    transition: all 500ms;
+    word-wrap: break-word;
+    
+    
+  }
+
+  .car-card h3 {
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .car-card p {
+    font-size: 18px;
+    margin: 10px;
+    background-color: #dbdbdbd6;
+    border-radius: 15px;
+    font-weight: 900;
+    word-wrap: break-word;
+  }
+
+  .car-card:hover{
+    width: 670px;
+    transition: 500ms;
+  }
+
+  .car-card img {
+      width: 80%;
+      border-radius: 5px;
+      display: flex;
+      margin: auto;
+  }
+
+  /* ceo seccion */
+  #ceo-section {
+      background-color: #f2f2f2bd;
+      padding: 20px;
+      border-radius: 15px;
+      justify-content: center;
+      align-items: center;
+      display: grid;
+  }
+    
+  #ceo-section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      justify-content: center;
+      align-items: center;
+      font-size: 80px;
+      margin: 45px;
+  }
+    
+  .ceo-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.909);
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      max-width: 930px;
+  }
+    
+  .ceo-card img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+  }
+    
+  .ceo-card h3 {
+      font-size: 38px;
+      margin-bottom: 10px;
+  }
+    
+  .ceo-card p {
+      text-align: center;
+      color: #555555;
+      font-size: 28px;
+  }
+
+
+  /* contact section */
+
+.contacto {
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+}
+
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Estilos del formulario */
+.contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto label {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+.contacto input,
+.contacto textarea {
+  margin-bottom: 50px;
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contacto textarea {
+  resize: vertical; /* Permite ajustar el tamaño verticalmente */
+  border-radius: 15px;
+}
+
+.contacto button {
+  padding: 30px 20px;
+  background-color: #555555;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 50px;
+  border-radius: 15px;
+}
+
+.contacto button:hover {
+  background-color: #707070;
+}
+
+  /* footer seccion*/
+  footer {
+      background-color: #000000ac;
+      color: #fff;
+      padding-top: 10px;
+      text-align: center;
+      border-radius: 15px 15px 0px 0px;
+      height: 190px;
+      width: auto;
+  }
+
+  footer p {
+      text-align: center;
+      font-size: 30px;
+
+  }
+
+  .RSS img {
+      height: 40px;
+      width: 40px;
+      transition: 400ms;
+  }
+
+  .RSS img:hover {
+      height: 65px;
+      width: 65px;
+      transition: 400ms;
+  }
+
+  .footer-contenedor {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  /* Estilo individual de otras paginas */
+
+  /* Estilos CSS para la página cars.html */
+
+  #fondo-img-cars¨{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+  } 
+
+  #cars-galery{
+    display: grid;
+    position: relative;
+    background-image: url("/imagenes/pngwing.com\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -300px;
+    align-items: center;
+    justify-content: center;
+    width: 980px;
+    height: auto;
+    padding: 0;
+    padding-bottom: 25px;
+    margin: 0;
+  }
+
+  .brand {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .brand-title {
+    font-size: 44px;
+    font-weight: 800;
+    padding: 15px 0px 15px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .model {
+    margin-left: 20px;
+    display: flex;
+  }
+
+  .car-card-galery {
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5d6;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.614);
+    transition: all 500ms;
+  }
+
+  .car-card-galery img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+ /* Estilos CSS para la página test.html y cualquier auto */
+
+
+ .car-description-conteiner {
+    height: auto;
+    max-width: 1600px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+ }
+
+ .car-section-1 {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    transition: 500ms all;
+    border-radius: 15px;
+  }
+
+  .car-image-1 {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    transition: all 500ms;
+  }
+
+  .car-section-1:hover {
+    width: 800px;
+    height: 70%;
+    
+    transition: all 500ms;
+    .car-image-1 {
+        max-height: 400px;
+        transition: 500ms all;
+    }
+  }
+
+  .car-model-1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .car-description-1 {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+
+
+
+  .technical-details {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+
+  .technical-details h3 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .technical-details ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 20;
+  }
+
+  .technical-details li {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
